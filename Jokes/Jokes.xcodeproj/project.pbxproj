@@ -14,6 +14,7 @@
 		90878C1D1BA3F1CB00210414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90878C1C1BA3F1CB00210414 /* Images.xcassets */; };
 		90878C201BA3F1CB00210414 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90878C1E1BA3F1CB00210414 /* LaunchScreen.xib */; };
 		90878C2C1BA3F1CB00210414 /* JokesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90878C2B1BA3F1CB00210414 /* JokesTests.m */; };
+		90EBCF4F1BA46C8F009C7BFE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EBCF4E1BA46C8F009C7BFE /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		90878C251BA3F1CB00210414 /* JokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90878C2A1BA3F1CB00210414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90878C2B1BA3F1CB00210414 /* JokesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesTests.m; sourceTree = "<group>"; };
+		90EBCF4E1BA46C8F009C7BFE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		90878C0E1BA3F1CB00210414 /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				90EBCF4D1BA46C48009C7BFE /* Images */,
 				90878C131BA3F1CB00210414 /* AppDelegate.h */,
 				90878C141BA3F1CB00210414 /* AppDelegate.m */,
 				90878C161BA3F1CB00210414 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				90878C2A1BA3F1CB00210414 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90EBCF4D1BA46C48009C7BFE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				90EBCF4E1BA46C8F009C7BFE /* icon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				90878C1B1BA3F1CB00210414 /* Main.storyboard in Resources */,
 				90878C201BA3F1CB00210414 /* LaunchScreen.xib in Resources */,
 				90878C1D1BA3F1CB00210414 /* Images.xcassets in Resources */,
+				90EBCF4F1BA46C8F009C7BFE /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Jokes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Jokes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
